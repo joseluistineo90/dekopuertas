@@ -1,11 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /* Reset */
 
@@ -1551,7 +1547,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #ddd;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -1624,7 +1620,8 @@
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: #fff;
+		text-decoration: none;
 	}
 
 	em, i {
@@ -1694,6 +1691,28 @@
 			margin-bottom: 0;
 		}
 
+/*Telefono*/
+a.phone {
+   padding: .5em .5em 1em 30px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWBJREFUeNpiZMADfF2cEoCUAgN54MHmPfsW4JJkxGPpfCCVwEAZWAC0PJFoi4GWGgCp8wzUAYZAyy+gC7LgUCwAIpzd3BnEJCTIsu3VixcMe3fthJtFrMUMMIt19PXJsvjKxYswi7ECJoYBAqMWj1o8avGoxaMWj1o8+CzGWx/Pnj6VgYeHhyyDv3z5QromYNPHAYj/X75w4T8IVBUXotDLFi2Ey4HY2ORAGGQGyCxsdjBjE1RXUlSANfTu37vLcBnYmvj69SucvnLxAsOrly/BcjA2htzdu2AMBAtv3bv/gKQ4BjVdQG2ngtIyhhNHj8DpyNh4BkVlZbAciI1NDl+zZ0ATF67mLShe9sNamXt37mRwdneH06DgFBOXAMuB2Dr6BhhysBADAkdg8/YAWa1MkGGRsXFwejlQTldPHywHYmOTQ7KYJB/TvEGPNY6hChdQwdIF2CzF23eidacNIMAAxi/joc6jdacAAAAASUVORK5CYII=)no-repeat left center;
+	border: 1px solid rgb(123, 121, 143);
+	border-radius: 0.35em;
+	margin: 1em auto;
+	width: 210px;
+	background-color: #8ebebc;
+	display:block;
+}
+/*tweetter*/
+ .tweet { 
+ 	padding-left: 4em;
+
+ }
+ /*formulario de contacto*/
+ .formulario { 
+ 	padding-left: 4em;
+
+ }
+
 /* Image */
 
 	.image {
@@ -1709,14 +1728,17 @@
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: #fff;
 		}
 
 			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
 			}
-
+        .image.avatar69 img {
+				width: 160px;
+				height: 48px;
+			}
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -2041,6 +2063,12 @@
 		min-height: 48px;
 		cursor: default;
 	}
+	#logotipo {
+		position: relative;
+		margin: 1.75em 1.5em 1.5em 1.5em;
+		min-height: 48px;
+		cursor: default;
+	}
 
 		#logo h1 {
 			position: relative;
@@ -2300,7 +2328,7 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 20%;
+				margin-left: 1%;
 			}
 
 		/* Main */

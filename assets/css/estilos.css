@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*INICIO Estilos de 2 columnas*/
+#contenedor{
+	width:70%;
+	
+	min-width: 20px;
+	margin:0 auto 2em;
+	margin-left: 115px;
+	background:url(./imagenes/fondoparaweb_m.jpg) repeat;
+	position:relative;
+
+	overflow: hidden;
+	/*************************************/
+	animation: fondo;
+	-moz-animation: fondo 5s infinite;
+	-o-animation: fondo 5s infinite;
+	-webkit-animation-name: fondo; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-iteration-count: infinite;
+	
+}
+
+
+
+
+
+.yogui{
+	width:30%;
+	min-width: 200px;
+	margin:0 auto 2em;
+	
+	background:url(./imagenes/yogui.png) no-repeat;
+	position:relative;/*obligatorio absoluta en las imagenes para animar*/
+	margin-top:20px;
+	margin-left:90px;
+	animation: yogui;
+	-moz-animation: yogui 5s infinite;
+	-o-animation: yogui 5s infinite;
+	-webkit-animation-name: yogui; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-iteration-count: infinite;
+	
+}
+/*****************************************************ANIMACIONES**********************************/
+
+
+	
+}
+/*Enlace para ver video tutorial https://www.youtube.com/watch?feature=player_embedded&v=LeFmCLBgAeg*/
+
+/*probando levitacion keyframes INICIO*/
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes yogui {
+    0%   { left:0px; top:0px;}
+    
+    75%  { left:0px; top:60px;}
+    100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes yogui {
+    0%   { left:0px; top:0px;}
+    
+    75%  { left:0px; top:60px;}
+    100% { left:0px; top:0px;}
+}
+
+/*probando levitacion keyframes FIN*/
+
+
+/*------------------fondo animado Styles-----------------------*/
+
+
+@-webkit-keyframes fondo {
+    0%   { left:0px; top:0px;}
+    
+    80%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes fondo {
+    0%   { left:0px; top:0px;}
+    
+    80%  { left:0px; top:30px; bottom: 20px;}
+    100% { left:0px; top:0px;}
+}
+
+/*carrusel de sliders 3D*/
