@@ -1547,7 +1547,7 @@
 /* Basic */
 
 	body {
-		background: #ddd;
+		background: #eeeff3;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -1704,7 +1704,8 @@ a.phone {
 }
 /*tweetter*/
  .tweet { 
- 	padding-left: 4em;
+ 	margin-top: 12px;
+ 	padding-left: 3em;
 
  }
  /*formulario de contacto*/
