@@ -2,16 +2,17 @@
 /* CSS Document */
 
 /*INICIO Estilos de 2 columnas*/
-#contenedor{
-	width:79%;
-	margin-top: -35%;
-	min-width: 20px;
-	margin:11 auto 2em;
-	margin-left: 205px;
+  #contenedor{
+	width:85%;
+	margin-top: -38%;
+	/*min-width: 20px;*/
+	/*margin:11 auto 2em;*/
+	margin-left: 160px;
 	background:url(./imagenes/fondoparaweb_sm.jpg) repeat;
 	position:relative;
-
+	display: block;
 	overflow: hidden;
+	
 	/*************************************/
 	/*animation: fondo;
 	-moz-animation: fondo 5s infinite;
@@ -35,7 +36,6 @@
 	margin-left: 205px;
 	background:url(./imagenes/fondoparaweb_movil.jpg) repeat;
 	position:relative;
-
 	overflow: hidden;
 	/*************************************/
 	/*animation: fondo;
@@ -114,4 +114,22 @@
     100% { left:0px; top:0px;}
 }
 
-/*carrusel de sliders 3D*/
+/*fondo con puerta al cielo fija*/
+
+@media screen and (max-width: 1320px) and (min-width: 961px)
+.container {
+    padding: 0 2em 0 2em;
+}
+
+@media screen and (max-width: 1320px) and (min-width: 961px)
+.container {
+    width: 100%;
+    }
+@media screen and (max-width: 1620px) and (min-width: 961px)
+.container {
+    width: 960px;
+}
+@media screen and (max-width: 1880px) and (min-width: 961px)
+.container {
+    width: 1200px;
+}
