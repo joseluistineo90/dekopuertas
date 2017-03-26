@@ -2,17 +2,17 @@
 /* CSS Document */
 
 /*INICIO Estilos de 2 columnas*/
-  #contenedor{
+  /*#contenedor{
 	width:85%;
 	margin-top: -38%;
 	/*min-width: 20px;*/
-	/*margin:11 auto 2em;*/
+	/*margin:11 auto 2em;
 	margin-left: 160px;
 	background:url(./imagenes/fondoparaweb_sm.jpg) repeat;
 	position:relative;
 	display: block;
 	overflow: hidden;
-	
+	*/
 	/*************************************/
 	/*animation: fondo;
 	-moz-animation: fondo 5s infinite;
@@ -81,7 +81,7 @@
 @-webkit-keyframes yogui {
     0%   { left:0px; top:0px;}
     
-    75%  { left:0px; top:60px;}
+    75%  { left:0px; top:100px;}
     100% { left:0px; top:0px;}
 }
 
@@ -89,7 +89,7 @@
 @keyframes yogui {
     0%   { left:0px; top:0px;}
     
-    75%  { left:0px; top:60px;}
+    75%  { left:0px; top:100px;}
     100% { left:0px; top:0px;}
 }
 

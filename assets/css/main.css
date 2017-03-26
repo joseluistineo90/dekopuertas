@@ -898,6 +898,9 @@
 		}
 
 	}
+	h6 {
+			font-size: .6em;
+		}
 
 	@media screen and (min-width: 961px) and (max-width: 1320px) {
 
@@ -1598,8 +1601,8 @@
 			color: #888;
 		}
 
-			h2.alt strong {
-				color: #666;
+			h2.alt b {
+				color: gray;
 			}
 
 	h3 {
@@ -2210,9 +2213,14 @@ a.phone {
 				background-position: center center;
 			}
 
-			#main > section.one {
+			/*#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+			}*/
+			#main > section.one {
+				background-color: #81918E;
+				margin-top: -30px;
+				background-image: url("../../images/fondoparaweb_sm.jpg");
 			}
 
 			#main > section.two {
