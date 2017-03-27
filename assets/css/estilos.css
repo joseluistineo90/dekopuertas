@@ -57,7 +57,7 @@
 	z-index: 1000;
 	background:url(./imagenes/yogui.png) no-repeat;
 	position:relative;/*obligatorio absoluta en las imagenes para animar*/
-	margin-top:20px;
+	margin-top:-90px;
 	margin-left:90px;
 	animation: yogui;
 	-moz-animation: yogui 5s infinite;
@@ -89,7 +89,7 @@
 @keyframes yogui {
     0%   { left:0px; top:0px;}
     
-    75%  { left:0px; top:100px;}
+    75%  { left:0px; top:120px;}
     100% { left:0px; top:0px;}
 }
 
