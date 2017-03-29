@@ -57,8 +57,8 @@
 	z-index: 1000;
 	background:url(./imagenes/yogui.png) no-repeat;
 	position:relative;/*obligatorio absoluta en las imagenes para animar*/
-	margin-top:-90px;
-	margin-left:90px;
+	margin-top: -115px;
+	margin-left:50px;
 	animation: yogui;
 	-moz-animation: yogui 5s infinite;
 	-o-animation: yogui 5s infinite;
@@ -81,7 +81,7 @@
 @-webkit-keyframes yogui {
     0%   { left:0px; top:0px;}
     
-    75%  { left:0px; top:100px;}
+    75%  { left:0px; top:0px;}
     100% { left:0px; top:0px;}
 }
 
@@ -89,8 +89,18 @@
 @keyframes yogui {
     0%   { left:0px; top:0px;}
     
-    75%  { left:0px; top:120px;}
+    75%  { left:0px; top:200px;}
     100% { left:0px; top:0px;}
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px)
+@keyframes yogui {
+    0%   { left:0px; top:0px;}
+    
+    75%  { left:0px; top:10px;}
+    100% { left:0px; top:0px;}
+
 }
 
 /*probando levitacion keyframes FIN*/
