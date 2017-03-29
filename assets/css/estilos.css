@@ -58,7 +58,7 @@
 	background:url(./imagenes/yogui.png) no-repeat;
 	position:relative;/*obligatorio absoluta en las imagenes para animar*/
 	margin-top: -115px;
-	margin-left:50px;
+	margin-left:30%;
 	animation: yogui;
 	-moz-animation: yogui 5s infinite;
 	-o-animation: yogui 5s infinite;
