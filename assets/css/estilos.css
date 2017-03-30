@@ -1,28 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*INICIO Estilos de 2 columnas*/
-  /*#contenedor{
-	width:85%;
-	margin-top: -38%;
-	/*min-width: 20px;*/
-	/*margin:11 auto 2em;
-	margin-left: 160px;
-	background:url(./imagenes/fondoparaweb_sm.jpg) repeat;
-	position:relative;
-	display: block;
-	overflow: hidden;
-	*/
-	/*************************************/
-	/*animation: fondo;
-	-moz-animation: fondo 5s infinite;
-	-o-animation: fondo 5s infinite;
-	-webkit-animation-name: fondo; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
-    animation-iteration-count: infinite;
-	
-}
+
 
 /*Fondo puerta al cielo para movil*/
 
